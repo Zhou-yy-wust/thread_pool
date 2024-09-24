@@ -50,7 +50,7 @@ int main() {
     }
 
     // 等待所有任务完成
-    pool.wait_tasks();
+    pool.wait_tasks(1000);
     std::cout << "All tasks completed." << std::endl;
 
     return 0;
